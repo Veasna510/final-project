@@ -6,6 +6,12 @@
     height: 50px;
 }
 
+#navbar_logo{
+    height: 50px;
+    width: 75px;
+    float: left;
+}
+
 ul{
     list-style-type: none;
 }
