@@ -41,6 +41,10 @@ h1{
     text-align: center;
 }
 
+h2{
+    text-align: center;
+}
+
  video{
     display: block;
     margin: 20px;
@@ -94,3 +98,51 @@ h1{
     font-size:2em;
     margin:0% 1%;
 }
+
+form{
+    background-color: #000;
+    border: 5px solid orange;
+}
+
+.contact_container{
+    height:300px;
+    width:720px;
+    margin: 0 auto;
+}
+
+label{
+    color: rgb(255, 169, 9);
+    text-align: center;
+    margin: 10px;
+    display: block;
+}
+
+input[type=text], select, textarea{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 5px;
+    box-sizing: border-box;
+    display: block;
+}
+
+input[type=submit]{
+    padding: 2px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top:10px;
+    display: block;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    color: black;
+    background-color: orange;
+}
+
+iframe{
+    border: 5px solid black;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: block;
+}
+
