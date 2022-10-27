@@ -1,7 +1,7 @@
 body, html{
     height: 100%;
 }
-
+/*The style for the navbar and hyperlinks in said navbar*/
 .navbar{
     position: sticky;
     top: 0px;
@@ -40,7 +40,7 @@ li{
      background-color: orange;
      color: white;
  }
-
+/*Alignment for the paragraphs and headers*/
 #about_paragraph{
     display: block;
     font-size: 18px;
@@ -64,7 +64,7 @@ h2{
     display: block;
     margin: 20px;
  }
-
+/*The style of the footer and social media icons*/
  body{
     margin:0;
     overflow-x:hidden;
@@ -108,7 +108,7 @@ h2{
     font-size:2em;
     margin:0% 1%;
 }
-
+/*The style of the contact form*/
 form{
     background-color: #000;
     border: 5px solid orange;
@@ -155,7 +155,8 @@ iframe{
     margin-bottom: 20px;
     display: block;
 }
-
+/*The classes for getting and displaying the hero images as well any of the text display in it as well.
+Keep the hyperlink style consistent*/
 .hero_image{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../Image/Sonic_30th_Ani_Symphony.PNG");
     height: 50%;
@@ -184,13 +185,14 @@ iframe{
 }
 
 .hero_text a:visited{
-    color: white;
     text-decoration: none;
+    color: white;
 }
 .hero_text a:visited:hover{
     color: orange;
 }
 
+/*The column class for the audio players*/
 .column {
     display: flex;
     justify-content: center;
